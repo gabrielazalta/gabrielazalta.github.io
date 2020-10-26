@@ -146,7 +146,6 @@ footer h2 {
 }
 .grid-container {
     background:var(--other);
-    width: 70%;
     display: grid;
     grid-template-columns: repeat(1, 4fr);
     grid-template-rows: repeat(2, 1fr);
@@ -218,5 +217,66 @@ mark {
     font-weight: bolder;
 }
 
+/* MEDIA QUERY */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+ 
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+ 
+    header nav ul li a {
+        font-size: 20px;
+    }
+ 
+    footer h2 {
+        text-align: center;
+        width: 100%;
+    }
+ 
+    .hero, .hero-sub {
+        width: 100%;
+    }
+ 
+    .hero-sub {
+        text-align: center;
+    }
 
+    .title {
+        width: 80%;
+    }
+    .box {
+        padding: 15px;
+        margin: 15px;
+    }
+    .contact-info {
+        margin: 80px;
+        padding: 80px;
+    }
+    .contact-info ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
+ @media screen and (max-width: 575px) {
+ 
+    .title {
+         width: 95%;
+     }
+ 
+ }
 

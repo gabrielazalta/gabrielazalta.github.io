@@ -10,6 +10,9 @@ A website to showcase work and information for Gabriela Zalta
 ## Website
 https://gabrielazalta.github.io/
 
+##
+![Site Screenshot](/images/screenshot.jpeg)
+
 ## Contribution
 Made with ❤️ by Gabriela Zalta
 
